@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    max-width: 80%;
+}
+
+.half-width .regular-btn {
+    background-image: linear-gradient(to right, orange, tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-banner {
+    background: url(images/top-banner.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
